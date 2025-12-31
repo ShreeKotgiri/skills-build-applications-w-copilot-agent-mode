@@ -1,0 +1,99 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #222;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand span {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.navbar-nav .nav-link.active {
+  color: #ffd700 !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+.btn {
+  border-radius: 20px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+}
+.btn-success { background: #28a745; color: #fff; }
+.btn-info { background: #17a2b8; color: #fff; }
+.btn-warning { background: #ffc107; color: #222; }
+.btn-secondary { background: #6c757d; color: #fff; }
+.btn-primary { background: #007bff; color: #fff; }
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
+}
+.card-title {
+  color: #007bff;
+}
+.card-text {
+  color: #333;
+}
+
+table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table-dark th {
+  background: #007bff !important;
+  color: #fff !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #e9f7fe;
+}
+.table-bordered {
+  border: 2px solid #007bff;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Favicon and logo tweaks */
+.App-logo {
+  height: 40px;
+  margin-right: 12px;
+}
+
+/* Modal, form, and other Bootstrap overrides can be added here */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
